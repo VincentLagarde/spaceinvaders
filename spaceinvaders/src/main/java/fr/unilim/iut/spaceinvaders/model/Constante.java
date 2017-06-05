@@ -20,9 +20,9 @@ public class Constante {
 	public static final char MARQUE_ENVAHISSEUR = 'E';
 	
 	
-	public static final int ENVAHISSEUR_LONGUEUR = 50;
+	public static final int ENVAHISSEUR_LONGUEUR = 60;
 	public static final int ENVAHISSEUR_HAUTEUR = 25;
-	public static final int ENVAHISSEUR_VITESSE = 9;
+	public static final int ENVAHISSEUR_VITESSE = 7;
 	
 	
 	

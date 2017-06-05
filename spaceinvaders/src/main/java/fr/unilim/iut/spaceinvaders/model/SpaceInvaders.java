@@ -118,6 +118,12 @@ public class SpaceInvaders implements Jeu{
 
 	@Override
 	public boolean etreFini() {
+		if(this.aUnMissile() && this.aUnEnvahisseur()){
+			if(Collision.detecterCollision(this.missile, this.envahisseur)){
+				System.out.println("Partie terminée.");
+				return true;
+	    	}
+	    }
 		return false;
 	}
 

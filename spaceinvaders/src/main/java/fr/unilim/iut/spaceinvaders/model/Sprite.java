@@ -7,14 +7,14 @@ public abstract class Sprite {
 	protected Dimension dimension;
 
 	public Sprite(Dimension dimension, Position origine, int vitesse) {
-		super();
+		
 		this.dimension = dimension;
 		this.origine = origine;
 		this.vitesse = vitesse;
 	}
 
 	public Sprite() {
-		super();
+		
 	}
 
 	public boolean occupeLaPosition(int x, int y) {
